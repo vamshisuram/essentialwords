@@ -48,7 +48,7 @@ nextBtn.addEventListener('dblclick', onReset)
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/sw.js')
+    .register('/essentialwords/sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 

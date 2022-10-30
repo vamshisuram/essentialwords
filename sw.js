@@ -1,11 +1,13 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('essentialwords').then((cache) => cache.addAll([
-      '/',
-      '/index.html',
-      '/index.js',
-      '/style.css',
-      '/images/words.png',
+      '/essentialwords/',
+      '/essentialwords/index.html',
+      '/essentialwords/index.js',
+      '/essentialwords/style.css',
+      '/essentialwords/images/words.png',
+      '/essentialwords/icon/words.png',
+      '/essentialwords/images/repeat.png',
     ])),
   );
 });
