@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  background: black;
+}
+
+body {
+  height: inherit;
+  margin: 0;
+  text-align: center;
+}
+
+.word {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 20%;
+  color: palegreen;
+}
+
+.buttons {
+  margin-top: 150px;
+}
+
+#next {
+  padding: 10px 30px;
+}
+
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
+@media (orientation: landscape) {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

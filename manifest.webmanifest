@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Show daily essential words",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/words.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Awesome essential words",
+  "short_name": "Words",
+  "start_url": "/essentialwords/index.html"
+}
